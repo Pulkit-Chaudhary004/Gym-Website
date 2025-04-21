@@ -23,10 +23,10 @@
       </button>
       <div class="hidden w-full md:block md:w-auto" id="navbar-default">
           <ul class="flex flex-col md:flex-row md:space-x-6 text-white">
-              <li><a href="../home/home.html" class="py-2 px-3 hover:text-blue-400">Home</a></li>
-              <li><a href="../find/find.html" class="py-2 px-3 hover:text-blue-400">Find a Gym</a></li>
+              <li><a href="../home/home.php" class="py-2 px-3 hover:text-blue-400">Home</a></li>
+              <li><a href="../find/find.php" class="py-2 px-3 hover:text-blue-400">Find a Gym</a></li>
               <li><a href="../whyJoin/whyJoin.html" class="py-2 px-3 hover:text-blue-400">Why Join</a></li>
-              <li><a href="../Franchise/franchise.html" class="py-2 px-3 hover:text-blue-400">Franchise</a></li>
+              <li><a href="../Franchise/franchise.php" class="py-2 px-3 hover:text-blue-400">Franchise</a></li>
               <li><a href="../services/services.html" class="py-2 px-3 hover:text-blue-400">Services</a></li>
           </ul>
       </div>
@@ -165,6 +165,13 @@
 <section class="w-full max-w-4xl mx-auto py-12 px-6 bg-gray-900 text-white rounded-lg shadow-lg">
   <h2 class="text-3xl font-bold text-center mb-6">Personalized Diet & Fitness Plan</h2>
 
+     
+
+
+
+
+
+
   <form id="fitness-form" class="grid grid-cols-1 md:grid-cols-2 gap-6">
       <!-- Weight -->
       <div>
@@ -203,6 +210,11 @@
           </button>
       </div>
   </form>
+  
+  
+
+
+
 
   <!-- Recommendation Section -->
   <div id="recommendation" class="hidden mt-6 p-6 bg-gray-800 rounded-lg">
